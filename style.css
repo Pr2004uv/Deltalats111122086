@@ -1,0 +1,9 @@
+*{
+    color: rgb(150, 104, 35);
+    background-color: black;
+    background-image: url('download.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: contain;
+}

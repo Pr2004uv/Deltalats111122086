@@ -1,0 +1,63 @@
+<!-- 
+<b> For showing a particular word in docu</b>
+<strong> is for showing headline of the topic. in an google search, we get to find only the word in strong as search
+<em> is used to show a word in italics
+<sub> for subscript and <sup> for superscript
+<cite> is used fr a reference kind of
+<u> is for underline
+&lt:b&gt is to show the <b> 
+< is lt and > is bt
+check google for character codes
+* name is needed beside every input type because it'd help in backend as reference>
+-->
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<form>
+    <label for="user-name"> <b>Name</b></label>
+    <input type="text" id="user-name" placeholder="Enter your Name">
+    <br>
+    <br>
+    <label for="email">Email ID</label>
+    <input type="email" id="email" placeholder="Enter your email id">
+    <br>
+    <br>
+    <label for="">Mobile number</label>
+    <input type="text" placeholder="Enter your mobile number">
+    <br>
+    <br>
+    <label for="">Password</label>
+    <input type="password">
+    <br>
+    <br>
+    <label for="password1">Confirm Password</label>
+    <input type="password" id="password1">
+    <br>
+    <br>
+    <label for="">Gender</label>
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female
+    <!-- radio is used in order to chose between the given options. name is used to choose 1 answwer only-->
+    <!-- checkerbox is used to select multiple options -->
+    <br>
+    <br>
+    <label for="">Languages known</label>
+    <input type="checkbox" name="languages" id="language-english" value="english"><label for="language-english">English</label>
+    <input type="checkbox" name="languages" id="language-tamil"><label for="language-tamil">Tamil</label>
+    <input type="checkbox" name="languages">Hindi
+    <input type="checkbox" name="languages">French
+    <br>
+    <br>
+    <label for="">Country of residence</label>
+    <select name="" id="">
+        <option value="">India</option>
+        <option value="">USA</option>
+        <option value="">Russia</option>
+        <option value="">China</option>
+    </select>
+    <br>
+    <br>
+    <label for="bio">BIO</label>
+    <textarea name="" cols="20" rows="40" id="bio" placeholder="Say about yourself"></textarea>
+    <input type="submit" value="Submit here">
+</form>
